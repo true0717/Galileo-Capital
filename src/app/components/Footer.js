@@ -65,7 +65,7 @@ const Footer = () => {
             className="cursor-pointer hover:scale-110 duration-300"
           />
           <img
-            src="/assets/Icons/Linkedin.svg"
+            src="/assets/Icons/linkedin.svg"
             className="cursor-pointer hover:scale-110 duration-300"
           />
         </div>
