@@ -19,6 +19,21 @@
   background-blend-mode: overlay;
 }
 
+/* styles.css */
+.hover-gradient {
+  transition: background 0.3s ease;
+}
+
+.hover-gradient:hover {
+  background: linear-gradient(
+    122.23deg,
+    #fcf0f8 5.68%,
+    #8b6de5 38.56%,
+    #481fda 72.69%,
+    #3b10d8 96.81%
+  );
+}
+
 * {
   color: white;
 }
