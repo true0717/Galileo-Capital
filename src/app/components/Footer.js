@@ -1,9 +1,19 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Footer = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: true });
+  }, []);
   return (
     <div className="bg-[#3F3E45] px-[10%] pt-[3%]">
-      <div className="flex justify-between items-center py-[5%]">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="2000"
+        className="flex justify-between items-center py-[5%]"
+      >
         <div className="flex w-[30%] text-start flex-col items-center">
           <img src="/assets/logo-footer.png" />
           <p className="text-white/70 pt-6 text-[18px]">
@@ -29,7 +39,11 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="border-t border-white/50 py-[3%]  flex justify-between items-center">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="2000"
+        className="border-t border-white/50 py-[3%]  flex justify-between items-center"
+      >
         <div className="flex items-center gap-4">
           <p className="text-[18px] leading-[27px]">Copyright</p>
           <p className="text-[18px] leading-[27px]">

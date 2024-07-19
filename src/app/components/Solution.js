@@ -1,10 +1,15 @@
-import React from "react";
-import "../globals.css";
+"use client";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Solution = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <div id="solution" className="flex gap-[2%] bg-[#09002a] px-[10%] py-[5%]">
-      <div className="w-[65%]">
+      <div data-aos="fade-up" className="w-[65%]">
         <div className="grid pb-[15%] grid-cols-3 justify-between">
           <div className="flex flex-col text-center items-center gap-[20px]">
             <img src="/assets/Icons/icon4.png" />
@@ -31,7 +36,7 @@ const Solution = () => {
         </h3> */}
         <img src="/assets/fonts/Partner with Galileo Capital and experience the future of cryptocurrency liquidation..svg" />
       </div>
-      <div className="w-[35%]">
+      <div data-aos="fade-up" className="w-[35%]">
         <img src="/assets/img1.png" className="w-full h-auto" />
       </div>
     </div>

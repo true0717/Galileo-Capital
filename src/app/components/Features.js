@@ -1,9 +1,16 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Features = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <div id="features" className="bg-[#09002a] px-[10%] py-[5%]">
-      <div className="flex justify-between">
+      <div data-aos="fade-up" className="flex justify-between">
         <div className="text-[40px] font-[600] flex items-center gap-[20px]">
           <p>1100+</p>
           <p className="text-[20px] font-[400] text-[#1BF8FD]">active users</p>
@@ -21,7 +28,7 @@ const Features = () => {
           </p>
         </div>
       </div>
-      <div className="flex gap-[3%] pt-[10%]">
+      <div data-aos="fade-up" className="flex gap-[3%] pt-[10%]">
         <div className="space-y-8 w-[60%]">
           {/* <h2 className="text-[#5CE1E6] text-[45px] leading-[72px]">
             The Crypto Challenge:{" "}

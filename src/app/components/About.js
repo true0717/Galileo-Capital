@@ -1,8 +1,14 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import CTAnim from "../../../public/assets/lottie/CTA-anim.json";
 import Lottie from "react-lottie";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({ duration: 9000 });
+  }, []);
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -17,14 +23,22 @@ const About = () => {
       id="about-us"
       className="section gap-[2%] bg-[#09002a] px-[10%] py-[5%]"
     >
-      <div className="grid grid-cols-2 items-center gap-[12%]">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="2000"
+        className="grid grid-cols-2 items-center gap-[12%]"
+      >
         <img src="/assets/fonts/What people are saying about us.svg" />
         <p className="text-[18px] leading-[32px] text-white/70">
           Everything you need to liquidate your crypto assets realiably.
         </p>
       </div>
 
-      <div className="grid grid-cols-3 gap-[4%] py-[12%]">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="4000"
+        className="grid grid-cols-3 gap-[4%] py-[12%]"
+      >
         <div className="px-8 py-14 rounded-[20px] about-gradient">
           <img src="/assets/quotes.png" />
           <p className="pt-4 text-[15px] leading-[27px]">
@@ -57,6 +71,8 @@ const About = () => {
       </div>
 
       <div
+        data-aos="fade-up"
+        data-aos-delay="2000"
         className="bg-cover bg-center flex items-center gap-[5%]  rounded-[20px]"
         style={{
           backgroundImage: "url('/assets/bg-cta.png')",

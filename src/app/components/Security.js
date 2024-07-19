@@ -1,13 +1,19 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Security = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <div className="flex items-start gap-[8%] bg-[#09002a] px-[10%] pb-[8%] py-[5%]">
-      <div className="w-[40%]">
+      <div data-aos="fade-up" className="w-[40%]">
         <img src="/assets/img2.png" className="w-full h-full" />
       </div>
 
-      <div className="space-y-8 w-[60%]">
+      <div data-aos="fade-up" className="space-y-8 w-[60%]">
         {/* <h2 className="text-white text-[45px] leading-[72px]">
           Minimized Volatility & Enhanced Security
         </h2> */}

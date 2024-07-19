@@ -1,9 +1,16 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Service = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className="grid grid-cols-2 gap-[5%] bg-[#09002a] px-[10%] py-[5%]">
-      <div className="">
+      <div data-aos="fade-up" className="">
         {/* <h2 className="text-white text-[45px] leading-[72px]">
           Guiding you through the whole process
         </h2> */}
@@ -16,7 +23,7 @@ const Service = () => {
           Get Started
         </button>
       </div>
-      <div className="relative">
+      <div data-aos="fade-up" className="relative">
         <img src="/assets/img3.png" />
       </div>
     </div>

@@ -24,8 +24,8 @@ const Hero = () => {
 
   return (
     <div className="text-white gradient-background px-[4%] py-[5%]">
-      <header className="flex justify-between items-start">
-        <div className="mx-[5%]">
+      <header className="flex  bg-transparent justify-between items-start">
+        <div className="mx-[5%] ">
           <img src="/assets/logo.png" alt="Logo" />
         </div>
         <div className="flex gap-[50px] items-center">
@@ -50,7 +50,7 @@ const Hero = () => {
         </div>
       </header>
 
-      <section className="flex gap-[2%] 2xl:gap-[5%] pt-[5%] items-center justify-center">
+      <section className="flex bg-transparent gap-[2%] 2xl:gap-[5%] pt-[5%] items-center justify-center">
         <div className="w-[60%] space-y-8">
           <h2 className="text-[72px] font-[600] leading-[100px]">
             Cryptocurrency <br /> Done Right with
