@@ -49,7 +49,7 @@ const Hero = () => {
           <h2 className="text-[72px] font-[600] leading-[100px]">
             Cryptocurrency <br /> Done Right with
           </h2>
-          <img src="/assets/Galileo capital.svg" className="w-full" />
+          <img src="/assets/fonts/Galileo capital.svg" className="w-full" />
           <p className="text-[27px] font-[500] leading-[38px]">
             Safeguard Your Assets and Navigate the volatile world of crypto
             assets with our secure and compliant platform.

@@ -40,7 +40,7 @@ const Challenge = () => {
 
         <div className="w-[40%] space-y-4">
           <div className="flex gap-[5%] items-center hover-gradient p-4 rounded-[20px]">
-            <img src="/assets/icon1.png" />
+            <img src="/assets/Icons/icon1.png" />
             <div>
               <h5 className="text-[20px] leading-[26px] font-[600] pb-2">
                 Regulatory Compliance
@@ -49,7 +49,7 @@ const Challenge = () => {
             </div>
           </div>
           <div className="flex gap-[5%] items-center hover-gradient p-4 rounded-[20px]">
-            <img src="/assets/icon2.png" />
+            <img src="/assets/Icons/icon2.png" />
             <div>
               <h5 className="text-[20px] leading-[26px] font-[600] pb-2">
                 Personalized Service
@@ -58,7 +58,7 @@ const Challenge = () => {
             </div>
           </div>
           <div className="flex gap-[5%] items-center hover-gradient p-4 rounded-[20px]">
-            <img src="/assets/icon3.png" />
+            <img src="/assets/Icons/icon3.png" />
             <div>
               <h5 className="text-[20px] leading-[26px] font-[600] pb-2">
                 Secure Transactions

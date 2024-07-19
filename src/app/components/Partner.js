@@ -7,19 +7,19 @@ const Partner = () => {
       <div className="w-[65%]">
         <div className="grid pb-[15%] grid-cols-3 justify-between">
           <div className="flex flex-col text-center items-center gap-[20px]">
-            <img src="/assets/icon4.png" />
+            <img src="/assets/Icons/icon4.png" />
             <p className="text-[27px] font-[500] leading-[38px]">
               Advanced Blockchain Technology
             </p>
           </div>
           <div className="flex flex-col text-center items-center gap-[20px]">
-            <img src="/assets/icon5.png" />
+            <img src="/assets/Icons/icon5.png" />
             <p className="text-[27px] font-[500] leading-[38px]">
               Secure Trading Algorithms
             </p>
           </div>
           <div className="flex flex-col text-center items-center gap-[20px]">
-            <img src="/assets/icon6.png" />
+            <img src="/assets/Icons/icon6.png" />
             <p className="text-[27px] font-[500] leading-[38px]">
               Robust Custody Agreements
             </p>

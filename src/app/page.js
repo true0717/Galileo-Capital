@@ -6,6 +6,8 @@ import Partner from "./components/Partner";
 import Security from "./components/Security";
 import Service from "./components/Service";
 import Process from "./components/Process";
+import About from "./components/About";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <Security />
       <Service />
       <Process />
+      <About />
+      <Footer />
     </div>
   );
 }
