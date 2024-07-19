@@ -28,7 +28,7 @@ const Hero = () => {
         <div className="mx-[5%] ">
           <img src="/assets/logo.png" alt="Logo" />
         </div>
-        <div className="flex gap-[50px] items-center">
+        <div className="hidden lg:flex gap-[50px] items-center">
           <ul className="text-[17px] cursor-pointer flex gap-[50px] font-[700]">
             {navItems.map((item, index) => (
               <li
@@ -52,15 +52,15 @@ const Hero = () => {
 
       <section className="flex flex-col lg:flex-row gap-[2%] 2xl:gap-[5%] pt-[5%] items-center justify-center">
         <div className="lg:w-[60%] space-y-8">
-          <h2 className="text-[72px] font-[600] leading-[100px]">
+          <h2 className="text-[42px] md:text-[72px] font-[600] leading-[60px] lg:leading-[100px]">
             Cryptocurrency <br /> Done Right with
           </h2>
           <img src="/assets/fonts/Galileo capital.svg" className="w-full" />
-          <p className="text-[23px] lg:text-[27px] font-[500] leading-[38px]">
+          <p className="text-[18px] md:text-[23px] lg:text-[27px] font-[500] leading-[28px] md:leading-[38px]">
             Safeguard Your Assets and Navigate the volatile world of crypto
             assets with our secure and compliant platform.
           </p>
-          <button className="bg-[#FCF0F8] text-black py-4 px-9 rounded-full text-[17px] font-[500]">
+          <button className="bg-[#FCF0F8] text-black py-2 md:py-4 px-6 md:px-9 rounded-full text-[15px] md:text-[17px] font-[500]">
             Get Started
           </button>
         </div>

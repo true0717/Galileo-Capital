@@ -26,7 +26,7 @@ const About = () => {
       <div
         data-aos="fade-up"
         data-aos-delay="2000"
-        className="grid grid-cols-2 items-center gap-[12%]"
+        className="grid py-8 md:py-0 md:grid-cols-2 items-center gap-[12%]"
       >
         <img src="/assets/fonts/What people are saying about us.svg" />
         <p className="text-[18px] leading-[32px] text-white/70">
@@ -73,13 +73,16 @@ const About = () => {
       <div
         data-aos="fade-up"
         data-aos-delay="2000"
-        className="bg-cover bg-center flex flex-col md:flex-row items-center gap-[5%] p-4 rounded-[20px]"
+        className="bg-cover bg-center my-[8%] md:my-0 flex flex-col md:flex-row items-center gap-[5%] p-4 rounded-[20px]"
         style={{
           backgroundImage: "url('/assets/bg-cta.png')",
         }}
       >
         <div className="md:w-[30%]">
-          <Lottie options={defaultOptions} className="h-[280px] w-auto" />
+          <Lottie
+            options={defaultOptions}
+            className="h-[20px] md:h-[280px] w-auto"
+          />
         </div>
         <div>
           <h3 className="text-[30px] lg:text-[48px] text-center md:text-start  leading-[45px] lg:leading-[67px] font-[600] ">

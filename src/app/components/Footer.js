@@ -12,9 +12,9 @@ const Footer = () => {
       <div
         data-aos="fade-up"
         data-aos-delay="2000"
-        className="flex justify-between items-center py-[5%]"
+        className="flex flex-col md:flex-row justify-between items-center py-[5%]"
       >
-        <div className="flex w-[30%] text-start flex-col items-center">
+        <div className="flex md:w-[30%] mb-12 md:mb-0 text-start flex-col items-center">
           <img src="/assets/logo-footer.png" />
           <p className="text-white/70 pt-6 text-[18px]">
             A new way to make the payments easy, reliable and secure.
@@ -45,8 +45,8 @@ const Footer = () => {
         className="border-t border-white/50 py-[3%] flex flex-col lg:flex-row justify-between items-center"
       >
         <div className="flex items-center gap-4">
-          <p className="text-[18px] leading-[27px]">Copyright</p>
-          <p className="text-[18px] leading-[27px]">
+          {/* <p className="text-[18px] leading-[27px]">Copyright</p> */}
+          <p className="text-[18px] leading-[27px] text-center md:text-start">
             2021 Galileo Capital. All Rights Reserved.
           </p>
         </div>

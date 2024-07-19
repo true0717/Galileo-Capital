@@ -10,20 +10,23 @@ const Features = () => {
 
   return (
     <div id="features" className="bg-[#09002a] px-[10%] py-[5%]">
-      <div data-aos="fade-up" className="flex justify-between">
-        <div className="text-[30px] lg:text-[40px] font-[600] flex items-center gap-[20px]">
+      <div
+        data-aos="fade-up"
+        className="flex flex-col md:flex-row justify-between"
+      >
+        <div className="text-[23px] md:text-[30px] lg:text-[40px] font-[600] flex items-center gap-[20px]">
           <p>1100+</p>
           <p className="text-[15px] lg:text-[20px] font-[400] text-[#1BF8FD]">
             active users
           </p>
         </div>
-        <div className="text-[30px] lg:text-[40px] font-[600] flex items-center gap-[20px]">
+        <div className="text-[23px] md:text-[30px] lg:text-[40px] font-[600] flex items-center gap-[20px]">
           <p>100+</p>
           <p className="text-[15px] lowercase lg:text-[20px] font-[400] text-[#1BF8FD]">
             TRUSTED BY COMPANY
           </p>
         </div>
-        <div className="text-[30px] lg:text-[40px] font-[600] flex items-center gap-[20px]">
+        <div className="text-[23px] md:text-[30px] lg:text-[40px] font-[600] flex items-center gap-[20px]">
           <p>$50M+</p>
           <p className="text-[15px] lowercase lg:text-[20px] font-[400] text-[#1BF8FD]">
             in TRANSACTIONs
@@ -40,40 +43,40 @@ const Features = () => {
             <span className="text-white">Volatility & Security</span>
           </h2> */}
           <img src="/assets/fonts/The Crypto Challenge_ Volatility & Security.svg" />
-          <p className="text-[18px] leading-[30px] text-white/70">
+          <p className="text-[15px] md:text-[18px] leading-[23px] md:leading-[30px] text-white/70">
             While the ever-changing landscape of cryptocurrency presents great
             opportunities, the wild price swings and security risks can leave
             your business exposed. Galileo Capital offers a safe and reliable
             platform for managing your cryptocurrency assets.
           </p>
-          <button className="bg-[#FCF0F8] text-black py-4 px-9 rounded-full text-[17px] font-[500]">
+          <button className="bg-[#FCF0F8] text-black py-2 md:py-4 px-6 md:px-9 rounded-full text-[15px] md:text-[17px] font-[500]">
             Get Started
           </button>
         </div>
 
         <div className="lg:w-[40%] pt-[8%] lg:pt-0 space-y-4">
-          <div className="pl-[120px] lg:pl-0 flex gap-[5%] items-center hover-gradient p-4 rounded-[20px]">
+          <div className="md:pl-[120px] lg:pl-0 flex gap-[5%] items-center hover-gradient p-2 md:p-4 rounded-[20px]">
             <img src="/assets/Icons/icon1.png" />
             <div>
-              <h5 className="text-[20px] leading-[26px] font-[600] pb-2">
+              <h5 className="text-[18px] md:text-[20px] leading-[26px] font-[600] pb-2">
                 Regulatory Compliance
               </h5>
               <p>Licensed and regulated in the US and Costa Rica.</p>
             </div>
           </div>
-          <div className="pl-[60px] lg:pl-0 flex gap-[5%] items-center hover-gradient p-4 rounded-[20px]">
+          <div className="md:pl-[60px] lg:pl-0 flex gap-[5%] items-center hover-gradient p-2 md:p-4 rounded-[20px]">
             <img src="/assets/Icons/icon2.png" />
             <div>
-              <h5 className="text-[20px] leading-[26px] font-[600] pb-2">
+              <h5 className="text-[18px] md:text-[20px] leading-[26px] font-[600] pb-2">
                 Personalized Service
               </h5>
               <p>Dedicated account managers for tailored support.</p>
             </div>
           </div>
-          <div className="flex gap-[5%] items-center hover-gradient p-4 rounded-[20px]">
+          <div className="flex gap-[5%] items-center hover-gradient p-2 md:p-4 rounded-[20px]">
             <img src="/assets/Icons/icon3.png" />
             <div>
-              <h5 className="text-[20px] leading-[26px] font-[600] pb-2">
+              <h5 className="text-[18px] md:text-[20px] leading-[26px] font-[600] pb-2">
                 Secure Transactions
               </h5>
               <p>

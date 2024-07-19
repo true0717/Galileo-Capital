@@ -52,7 +52,7 @@ const Process = () => {
         <div
           data-aos="fade-up"
           data-aos-delay="2000"
-          className="pl-[5%] lg:pl-[25%] py-8 flex items-center gap-[5%] process-gradient"
+          className="pl-[5%] lg:pl-[25%] py-4 md:py-8 flex flex-col md:flex-row text-center md:text-start items-center gap-[5%] process-gradient"
         >
           <div className="w-[164px] h-auto">
             <Lottie options={defaultOptions} />
@@ -70,7 +70,7 @@ const Process = () => {
         <div
           data-aos="fade-up"
           data-aos-delay="2000"
-          className="pl-[5%] lg:pl-[25%] py-8 flex items-center gap-[5%] process-gradient"
+          className="pl-[5%] lg:pl-[25%] py-4 md:py-8 flex flex-col md:flex-row text-center md:text-start  items-center gap-[5%] process-gradient"
         >
           <div className="w-[164px] h-auto">
             <Lottie options={defaultOptions2} />
@@ -88,7 +88,7 @@ const Process = () => {
         <div
           data-aos="fade-up"
           data-aos-delay="2000"
-          className="pl-[5%] lg:pl-[25%] py-8 flex items-center gap-[5%] process-gradient"
+          className="pl-[5%] lg:pl-[25%] py-4 md:py-8 flex flex-col md:flex-row text-center md:text-start  items-center gap-[5%] process-gradient"
         >
           <div className="w-[164px] h-auto">
             <Lottie options={defaultOptions3} />
@@ -106,7 +106,7 @@ const Process = () => {
         <div
           data-aos="fade-up"
           data-aos-delay="2000"
-          className="pl-[5%] lg:pl-[25%] py-8 flex items-center gap-[5%] process-gradient"
+          className="pl-[5%] lg:pl-[25%]  py-4 md:py-8 flex flex-col md:flex-row text-center md:text-start  items-center gap-[5%] process-gradient"
         >
           <div className="w-[164px] h-auto">
             <Lottie options={defaultOptions4} />

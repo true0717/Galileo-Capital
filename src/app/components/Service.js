@@ -19,7 +19,7 @@ const Service = () => {
           Our team of blockchain and crypto experts is here to guide you. Plus,
           we handle all regulatory requirements on your behalf.
         </p>
-        <button className="mt-8 bg-[#FCF0F8] text-black py-4 px-9 rounded-full text-[17px] font-[500]">
+        <button className="bg-[#FCF0F8] text-black py-2 md:py-4 px-6 md:px-9 rounded-full text-[15px] md:text-[17px] font-[500]">
           Get Started
         </button>
       </div>
