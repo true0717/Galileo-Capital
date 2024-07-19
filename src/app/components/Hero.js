@@ -6,6 +6,7 @@ import Lottie from "react-lottie";
 
 const Hero = () => {
   const [activeIndex, setActiveIndex] = useState(0);
+  const [show, setShow] = useState(false);
   const navItems = ["Home", "Features", "Solution", "Process", "About Us"];
 
   const defaultOptions = {
@@ -20,13 +21,22 @@ const Hero = () => {
   const handleNavClick = (index, sectionId) => {
     setActiveIndex(index);
     document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
+    setShow(false);
+  };
+
+  const handleMobile = () => {
+    setShow(false);
   };
 
   return (
     <div className="text-white gradient-background px-[4%] py-[5%]">
       <header className="flex justify-between items-start">
-        <div className="mx-[5%] ">
-          <img src="/assets/logo.png" alt="Logo" />
+        <div className="md:mx-[5%] ">
+          <img
+            src="/assets/logo.png"
+            alt="Logo"
+            className="h-10 a-auto md:h-14 lg:h-auto"
+          />
         </div>
         <div className="hidden lg:flex gap-[50px] items-center">
           <ul className="text-[17px] cursor-pointer flex gap-[50px] font-[700]">
@@ -47,6 +57,35 @@ const Hero = () => {
           <button className="bg-[#FCF0F8] text-black py-4 px-9 rounded-full text-[17px] font-[500]">
             Get Started
           </button>
+        </div>
+
+        <div>
+          <img
+            onClick={() => setShow(!show)}
+            src="/assets/Icons/menu.svg"
+            className="h-10 w-10 text-white lg:hidden "
+          />
+        </div>
+        <div className="absolute lg:hidden">
+          <div
+            className={`${
+              show === true ? "block" : "hidden"
+            } fixed z-50 top-20 about-gradient right-5 backdrop-blur-lg py-4 px-5 rounded-lg`}
+          >
+            <ul className="text-[15px] space-y-3 cursor-pointer  gap-[50px] font-[700]">
+              {navItems.map((item, index) => (
+                <li
+                  key={index}
+                  className={`nav-item `}
+                  onClick={() =>
+                    handleNavClick(index, item.toLowerCase().replace(/ /g, "-"))
+                  }
+                >
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </header>
 
