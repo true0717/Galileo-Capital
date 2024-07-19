@@ -4,10 +4,11 @@ const Service = () => {
   return (
     <div className="grid grid-cols-2 gap-[5%] bg-[#09002a] px-[10%] py-[5%]">
       <div className="">
-        <h2 className="text-white text-[45px] leading-[72px]">
+        {/* <h2 className="text-white text-[45px] leading-[72px]">
           Guiding you through the whole process
-        </h2>
-        <p className="text-[18px] leading-[30px] text-white/70">
+        </h2> */}
+        <img src="/assets/fonts/Guiding you through the whole process.svg" />
+        <p className="text-[18px] py-6 leading-[30px] text-white/70">
           Our team of blockchain and crypto experts is here to guide you. Plus,
           we handle all regulatory requirements on your behalf.
         </p>

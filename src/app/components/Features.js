@@ -23,10 +23,11 @@ const Features = () => {
       </div>
       <div className="flex gap-[3%] pt-[10%]">
         <div className="space-y-8 w-[60%]">
-          <h2 className="text-[#5CE1E6] text-[45px] leading-[72px]">
+          {/* <h2 className="text-[#5CE1E6] text-[45px] leading-[72px]">
             The Crypto Challenge:{" "}
             <span className="text-white">Volatility & Security</span>
-          </h2>
+          </h2> */}
+          <img src="/assets/fonts/The Crypto Challenge_ Volatility & Security.svg" />
           <p className="text-[18px] leading-[30px] text-white/70">
             While the ever-changing landscape of cryptocurrency presents great
             opportunities, the wild price swings and security risks can leave
