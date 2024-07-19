@@ -95,7 +95,7 @@ const Process = () => {
           </div>
 
           <div>
-            <h4 className="text-[30px] lg:text-[45px] leading-[63px]">
+            <h4 className="text-[30px] lg:text-[45px] leading-[47px] lg:leading-[63px]">
               Transactions and Liquidation
             </h4>
             <p className="text-[20px] lg:text-[27px] leading-[38px]">
