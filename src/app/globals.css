@@ -47,3 +47,7 @@
   -webkit-background-clip: text;
   color: transparent;
 }
+
+.process-gradient{
+  background: linear-gradient(180deg, #9747FF 0%, #3F15D9 100%);
+}

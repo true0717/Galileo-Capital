@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Partner from "./components/Partner";
 import Security from "./components/Security";
 import Service from "./components/Service";
+import Process from "./components/Process";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Partner />
       <Security />
       <Service />
+      <Process />
     </div>
   );
 }
