@@ -38,7 +38,7 @@ const Challenge = () => {
           </button>
         </div>
 
-        <div className="w-[40%] space-y-8">
+        <div className="w-[40%] space-y-4">
           <div className="flex gap-[5%] items-center hover-gradient p-4 rounded-[20px]">
             <img src="/assets/icon1.png" />
             <div>

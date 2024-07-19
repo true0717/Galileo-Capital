@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  color: white;
+}
+
 .gradient-background {
   background: linear-gradient(135deg, #3b10d8 0%, #3f15d9 41.5%, #fef7f8 100%),
     radial-gradient(
@@ -34,6 +38,12 @@
   );
 }
 
-* {
-  color: white;
+.gradient-text {
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+              linear-gradient(135deg, #3B10D8 0%, #3F15D9 41.5%, #FEF7F8 100%),
+              radial-gradient(90.56% 90.56% at 100% 4.95%, #1BF8FD 0%, rgba(28, 241, 252, 0.6) 33.81%, rgba(159, 133, 243, 0.3) 66.14%, rgba(255, 255, 255, 0) 100%),
+              radial-gradient(41.76% 41.76% at 1.67% 16.67%, rgba(59, 16, 216, 0.8) 0%, rgba(59, 16, 216, 0) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
