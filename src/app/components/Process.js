@@ -40,7 +40,7 @@ const Process = () => {
   };
 
   return (
-    <div className="bg-[#09002a]">
+    <div id="process" className="bg-[#09002a]">
       <div className="pl-[25%] py-8 flex items-center gap-[5%] process-gradient">
         <div className="w-[164px] h-auto">
           <Lottie options={defaultOptions} />

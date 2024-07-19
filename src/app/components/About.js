@@ -13,7 +13,10 @@ const About = () => {
   };
 
   return (
-    <div className=" gap-[2%] bg-[#09002a] px-[10%] py-[5%]">
+    <div
+      id="about-us"
+      className="section gap-[2%] bg-[#09002a] px-[10%] py-[5%]"
+    >
       <div className="grid grid-cols-2 items-center gap-[12%]">
         <img src="/assets/fonts/What people are saying about us.svg" />
         <p className="text-[18px] leading-[32px] text-white/70">

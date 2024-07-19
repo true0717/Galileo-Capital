@@ -1,8 +1,8 @@
 import React from "react";
 
-const Challenge = () => {
+const Features = () => {
   return (
-    <div className="bg-[#09002a] px-[10%] py-[5%]">
+    <div id="features" className="bg-[#09002a] px-[10%] py-[5%]">
       <div className="flex justify-between">
         <div className="text-[40px] font-[600] flex items-center gap-[20px]">
           <p>1100+</p>
@@ -74,4 +74,4 @@ const Challenge = () => {
   );
 };
 
-export default Challenge;
+export default Features;

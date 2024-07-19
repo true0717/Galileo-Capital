@@ -1,6 +1,5 @@
 "use client";
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 
 import HeroAnim from "../../../public/assets/lottie/hero-anim.json";
 import Lottie from "react-lottie";
@@ -18,6 +17,11 @@ const Hero = () => {
     },
   };
 
+  const handleNavClick = (index, sectionId) => {
+    setActiveIndex(index);
+    document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="text-white gradient-background px-[4%] py-[5%]">
       <header className="flex justify-between items-start">
@@ -32,7 +36,9 @@ const Hero = () => {
                 className={`nav-item ${
                   activeIndex === index ? "" : "text-white/70 text-[16px]"
                 }`}
-                onClick={() => setActiveIndex(index)}
+                onClick={() =>
+                  handleNavClick(index, item.toLowerCase().replace(/ /g, "-"))
+                }
               >
                 {item}
               </li>

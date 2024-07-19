@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
-import Challenge from "./components/Challenge";
+import Challenge from "./components/Features";
 import Hero from "./components/Hero";
-import Partner from "./components/Partner";
+import Partner from "./components/Solution";
 import Security from "./components/Security";
 import Service from "./components/Service";
 import Process from "./components/Process";

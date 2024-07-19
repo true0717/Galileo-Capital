@@ -2,7 +2,10 @@ import React from "react";
 
 const Security = () => {
   return (
-    <div className="flex items-start gap-[8%] bg-[#09002a] px-[10%] pb-[8%] py-[5%]">
+    <div
+      
+      className="flex items-start gap-[8%] bg-[#09002a] px-[10%] pb-[8%] py-[5%]"
+    >
       <div className="w-[40%]">
         <img src="/assets/img2.png" className="w-full h-full" />
       </div>
