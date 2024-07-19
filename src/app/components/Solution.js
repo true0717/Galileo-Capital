@@ -8,24 +8,27 @@ const Solution = () => {
     AOS.init({ duration: 1000 });
   }, []);
   return (
-    <div id="solution" className="flex gap-[2%] bg-[#09002a] px-[10%] py-[5%]">
-      <div data-aos="fade-up" className="w-[65%]">
+    <div
+      id="solution"
+      className="flex flex-col lg:flex-row gap-[2%] bg-[#09002a] px-[10%] py-[5%]"
+    >
+      <div data-aos="fade-up" className="w-[80%] lg:w-[65%]">
         <div className="grid pb-[15%] grid-cols-3 justify-between">
           <div className="flex flex-col text-center items-center gap-[20px]">
             <img src="/assets/Icons/icon4.png" />
-            <p className="text-[27px] font-[500] leading-[38px]">
+            <p className="text-[20px] lg:text-[27px] font-[500] leading-[38px]">
               Advanced Blockchain Technology
             </p>
           </div>
           <div className="flex flex-col text-center items-center gap-[20px]">
             <img src="/assets/Icons/icon5.png" />
-            <p className="text-[27px] font-[500] leading-[38px]">
+            <p className="text-[20px] lg:text-[27px] font-[500] leading-[38px]">
               Secure Trading Algorithms
             </p>
           </div>
           <div className="flex flex-col text-center items-center gap-[20px]">
             <img src="/assets/Icons/icon6.png" />
-            <p className="text-[27px] font-[500] leading-[38px]">
+            <p className="text-[20px] lg:text-[27px] font-[500] leading-[38px]">
               Robust Custody Agreements
             </p>
           </div>
@@ -36,7 +39,10 @@ const Solution = () => {
         </h3> */}
         <img src="/assets/fonts/Partner with Galileo Capital and experience the future of cryptocurrency liquidation..svg" />
       </div>
-      <div data-aos="fade-up" className="w-[35%]">
+      <div
+        data-aos="fade-up"
+        className="ml-[10%] lg:ml-0 w-[90%] pt-[8%] lg:pt-0 lg:w-[35%]"
+      >
         <img src="/assets/img1.png" className="w-full h-auto" />
       </div>
     </div>

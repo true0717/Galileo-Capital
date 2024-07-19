@@ -42,7 +42,7 @@ const Footer = () => {
       <div
         data-aos="fade-up"
         data-aos-delay="2000"
-        className="border-t border-white/50 py-[3%]  flex justify-between items-center"
+        className="border-t border-white/50 py-[3%] flex flex-col lg:flex-row justify-between items-center"
       >
         <div className="flex items-center gap-4">
           <p className="text-[18px] leading-[27px]">Copyright</p>
@@ -51,7 +51,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="flex gap-4 items-center">
+        <div className="flex gap-4 items-center pt-[4%] lg:pt-0">
           <img
             src="/assets/Icons/Facebook.svg"
             className="cursor-pointer hover:scale-110 duration-300 "

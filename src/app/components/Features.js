@@ -11,25 +11,30 @@ const Features = () => {
   return (
     <div id="features" className="bg-[#09002a] px-[10%] py-[5%]">
       <div data-aos="fade-up" className="flex justify-between">
-        <div className="text-[40px] font-[600] flex items-center gap-[20px]">
+        <div className="text-[30px] lg:text-[40px] font-[600] flex items-center gap-[20px]">
           <p>1100+</p>
-          <p className="text-[20px] font-[400] text-[#1BF8FD]">active users</p>
+          <p className="text-[15px] lg:text-[20px] font-[400] text-[#1BF8FD]">
+            active users
+          </p>
         </div>
-        <div className="text-[40px] font-[600] flex items-center gap-[20px]">
+        <div className="text-[30px] lg:text-[40px] font-[600] flex items-center gap-[20px]">
           <p>100+</p>
-          <p className="text-[20px] font-[400] text-[#1BF8FD]">
+          <p className="text-[15px] lowercase lg:text-[20px] font-[400] text-[#1BF8FD]">
             TRUSTED BY COMPANY
           </p>
         </div>
-        <div className="text-[40px] font-[600] flex items-center gap-[20px]">
+        <div className="text-[30px] lg:text-[40px] font-[600] flex items-center gap-[20px]">
           <p>$50M+</p>
-          <p className="text-[20px] font-[400] text-[#1BF8FD]">
+          <p className="text-[15px] lowercase lg:text-[20px] font-[400] text-[#1BF8FD]">
             in TRANSACTIONs
           </p>
         </div>
       </div>
-      <div data-aos="fade-up" className="flex gap-[3%] pt-[10%]">
-        <div className="space-y-8 w-[60%]">
+      <div
+        data-aos="fade-up"
+        className="flex flex-col lg:flex-row gap-[3%] pt-[10%]"
+      >
+        <div className="space-y-8 lg:w-[60%]">
           {/* <h2 className="text-[#5CE1E6] text-[45px] leading-[72px]">
             The Crypto Challenge:{" "}
             <span className="text-white">Volatility & Security</span>
@@ -46,8 +51,8 @@ const Features = () => {
           </button>
         </div>
 
-        <div className="w-[40%] space-y-4">
-          <div className="flex gap-[5%] items-center hover-gradient p-4 rounded-[20px]">
+        <div className="lg:w-[40%] pt-[8%] lg:pt-0 space-y-4">
+          <div className="pl-[120px] lg:pl-0 flex gap-[5%] items-center hover-gradient p-4 rounded-[20px]">
             <img src="/assets/Icons/icon1.png" />
             <div>
               <h5 className="text-[20px] leading-[26px] font-[600] pb-2">
@@ -56,7 +61,7 @@ const Features = () => {
               <p>Licensed and regulated in the US and Costa Rica.</p>
             </div>
           </div>
-          <div className="flex gap-[5%] items-center hover-gradient p-4 rounded-[20px]">
+          <div className="pl-[60px] lg:pl-0 flex gap-[5%] items-center hover-gradient p-4 rounded-[20px]">
             <img src="/assets/Icons/icon2.png" />
             <div>
               <h5 className="text-[20px] leading-[26px] font-[600] pb-2">

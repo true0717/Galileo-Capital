@@ -52,15 +52,17 @@ const Process = () => {
         <div
           data-aos="fade-up"
           data-aos-delay="2000"
-          className="pl-[25%] py-8 flex items-center gap-[5%] process-gradient"
+          className="pl-[5%] lg:pl-[25%] py-8 flex items-center gap-[5%] process-gradient"
         >
           <div className="w-[164px] h-auto">
             <Lottie options={defaultOptions} />
           </div>
 
           <div>
-            <h4 className="text-[45px] leading-[63px]">Initial Evaluation</h4>
-            <p className="text-[27px] leading-[38px]">
+            <h4 className="text-[30px] lg:text-[45px] leading-[63px]">
+              Initial Evaluation
+            </h4>
+            <p className="text-[20px] lg:text-[27px] leading-[38px]">
               Analyze your specific needs and risk profile.
             </p>
           </div>
@@ -68,17 +70,17 @@ const Process = () => {
         <div
           data-aos="fade-up"
           data-aos-delay="2000"
-          className="pl-[25%] py-8 flex items-center gap-[5%] process-gradient"
+          className="pl-[5%] lg:pl-[25%] py-8 flex items-center gap-[5%] process-gradient"
         >
           <div className="w-[164px] h-auto">
             <Lottie options={defaultOptions2} />
           </div>
 
           <div>
-            <h4 className="text-[45px] leading-[63px]">
+            <h4 className="text-[30px] lg:text-[45px] leading-[47px] lg:leading-[63px]">
               Registration and Compliance
             </h4>
-            <p className="text-[27px] leading-[38px]">
+            <p className="text-[20px] lg:text-[27px] leading-[38px]">
               Complete customer onboarding and KYC/AML procedures.
             </p>
           </div>
@@ -86,17 +88,17 @@ const Process = () => {
         <div
           data-aos="fade-up"
           data-aos-delay="2000"
-          className="pl-[25%] py-8 flex items-center gap-[5%] process-gradient"
+          className="pl-[5%] lg:pl-[25%] py-8 flex items-center gap-[5%] process-gradient"
         >
           <div className="w-[164px] h-auto">
             <Lottie options={defaultOptions3} />
           </div>
 
           <div>
-            <h4 className="text-[45px] leading-[63px]">
+            <h4 className="text-[30px] lg:text-[45px] leading-[63px]">
               Transactions and Liquidation
             </h4>
-            <p className="text-[27px] leading-[38px]">
+            <p className="text-[20px] lg:text-[27px] leading-[38px]">
               Execute and settle transactions securely.
             </p>
           </div>
@@ -104,17 +106,17 @@ const Process = () => {
         <div
           data-aos="fade-up"
           data-aos-delay="2000"
-          className="pl-[25%] py-8 flex items-center gap-[5%] process-gradient"
+          className="pl-[5%] lg:pl-[25%] py-8 flex items-center gap-[5%] process-gradient"
         >
           <div className="w-[164px] h-auto">
             <Lottie options={defaultOptions4} />
           </div>
 
           <div>
-            <h4 className="text-[45px] leading-[63px]">
+            <h4 className="text-[30px] lg:text-[45px] leading-[63px]">
               Monitoring and Support{" "}
             </h4>
-            <p className="text-[27px] leading-[38px]">
+            <p className="text-[20px] lg:text-[27px] leading-[38px]">
               Receive continuous monitoring and personalized assistance.
             </p>
           </div>

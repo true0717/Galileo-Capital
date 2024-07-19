@@ -37,7 +37,7 @@ const About = () => {
       <div
         data-aos="fade-up"
         data-aos-delay="4000"
-        className="grid grid-cols-3 gap-[4%] py-[12%]"
+        className="grid md:grid-cols-2 lg:grid-cols-3 gap-[4%] py-[12%]"
       >
         <div className="px-8 py-14 rounded-[20px] about-gradient">
           <img src="/assets/quotes.png" />
@@ -73,21 +73,23 @@ const About = () => {
       <div
         data-aos="fade-up"
         data-aos-delay="2000"
-        className="bg-cover bg-center flex items-center gap-[5%]  rounded-[20px]"
+        className="bg-cover bg-center flex flex-col md:flex-row items-center gap-[5%] p-4 rounded-[20px]"
         style={{
           backgroundImage: "url('/assets/bg-cta.png')",
         }}
       >
-        <div>
+        <div className="md:w-[30%]">
           <Lottie options={defaultOptions} className="h-[280px] w-auto" />
         </div>
         <div>
-          <h3 className="text-[48px] leading-[67px] font-[600] ">
-            Galileo Capital is regulated <br /> in Costa Rica and United States
+          <h3 className="text-[30px] lg:text-[48px] text-center md:text-start  leading-[45px] lg:leading-[67px] font-[600] ">
+            Galileo Capital is regulated in Costa Rica and United States
           </h3>
-          <button className="mt-6 bg-[#FCF0F8] text-black py-4 px-9 rounded-full text-[17px] font-[500]">
-            Get Started
-          </button>
+          <div className="flex items-center justify-center md:justify-start md:items-start">
+            <button className="mt-6 bg-[#FCF0F8] text-black py-4 px-9 rounded-full text-[17px] font-[500]">
+              Get Started
+            </button>
+          </div>
         </div>
       </div>
     </div>

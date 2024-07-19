@@ -24,7 +24,7 @@ const Hero = () => {
 
   return (
     <div className="text-white gradient-background px-[4%] py-[5%]">
-      <header className="flex  bg-transparent justify-between items-start">
+      <header className="flex justify-between items-start">
         <div className="mx-[5%] ">
           <img src="/assets/logo.png" alt="Logo" />
         </div>
@@ -50,13 +50,13 @@ const Hero = () => {
         </div>
       </header>
 
-      <section className="flex bg-transparent gap-[2%] 2xl:gap-[5%] pt-[5%] items-center justify-center">
-        <div className="w-[60%] space-y-8">
+      <section className="flex flex-col lg:flex-row gap-[2%] 2xl:gap-[5%] pt-[5%] items-center justify-center">
+        <div className="lg:w-[60%] space-y-8">
           <h2 className="text-[72px] font-[600] leading-[100px]">
             Cryptocurrency <br /> Done Right with
           </h2>
           <img src="/assets/fonts/Galileo capital.svg" className="w-full" />
-          <p className="text-[27px] font-[500] leading-[38px]">
+          <p className="text-[23px] lg:text-[27px] font-[500] leading-[38px]">
             Safeguard Your Assets and Navigate the volatile world of crypto
             assets with our secure and compliant platform.
           </p>
@@ -64,7 +64,7 @@ const Hero = () => {
             Get Started
           </button>
         </div>
-        <div className="w-[40%]">
+        <div className="w-[75%] lg:w-[40%]">
           <Lottie options={defaultOptions} />
         </div>
       </section>
