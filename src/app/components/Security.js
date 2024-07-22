@@ -8,8 +8,8 @@ const Security = () => {
     AOS.init({ duration: 1000 });
   }, []);
   return (
-    <div className="flex flex-col lg:flex-row items-start gap-[8%] bg-[#09002a] px-[10%] pb-[8%] py-[5%]">
-      <div data-aos="fade-up" className="md:pr-[10%] md:w-[90%] lg:w-[80%] ">
+    <div className="grid lg:grid-cols-2 items-start overflow-hidden gap-[3%] bg-[#09002a] px-[10%] pb-[8%] py-[5%]">
+      <div data-aos="fade-up" className="md:w-full ">
         <img src="/assets/img2.png" className="w-full h-full" />
       </div>
 
