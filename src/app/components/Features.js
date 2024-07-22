@@ -49,13 +49,13 @@ const Features = () => {
             your business exposed. Galileo Capital offers a safe and reliable
             platform for managing your cryptocurrency assets.
           </p>
-          <button className="bg-[#FCF0F8] text-black py-2 md:py-4 px-6 md:px-9 rounded-full text-[15px] md:text-[17px] font-[500]">
+          <button className="bg-[#FCF0F8] hover:bg-[#28C0F5] duration-300 hover:text-white text-black py-2 md:py-4 px-6 md:px-9 rounded-full text-[15px] md:text-[17px] font-[500]">
             Get Started
           </button>
         </div>
 
         <div className="lg:w-[40%] pt-[8%] lg:pt-0 space-y-4">
-          <div className="md:pl-[120px] lg:pl-0 flex gap-[5%] items-center hover-gradient p-2 md:p-4 rounded-[20px]">
+          <div className="md:pl-[120px] lg:pl-4 flex gap-[5%] items-center hover-gradient p-2 md:p-4 rounded-[20px]">
             <img src="/assets/Icons/icon1.png" />
             <div>
               <h5 className="text-[18px] md:text-[20px] leading-[26px] font-[600] pb-2">
@@ -64,7 +64,7 @@ const Features = () => {
               <p>Licensed and regulated in the US and Costa Rica.</p>
             </div>
           </div>
-          <div className="md:pl-[60px] lg:pl-0 flex gap-[5%] items-center hover-gradient p-2 md:p-4 rounded-[20px]">
+          <div className="md:pl-[60px] lg:pl-4 flex gap-[5%] items-center hover-gradient p-2 md:p-4 rounded-[20px]">
             <img src="/assets/Icons/icon2.png" />
             <div>
               <h5 className="text-[18px] md:text-[20px] leading-[26px] font-[600] pb-2">

@@ -21,7 +21,7 @@ const About = () => {
   return (
     <div
       id="about-us"
-      className="section gap-[2%] bg-[#09002a] px-[10%] py-[5%]"
+      className="section pt-[8%] gap-[2%] bg-[#09002a] px-[10%] py-[5%]"
     >
       <div
         data-aos="fade-up"
@@ -39,7 +39,7 @@ const About = () => {
         data-aos-delay="4000"
         className="grid md:grid-cols-2 lg:grid-cols-3 gap-[4%] py-[12%]"
       >
-        <div className="px-8 py-14 rounded-[20px] about-gradient">
+        <div className="px-8 py-14 rounded-[20px] hover-gradient">
           <img src="/assets/quotes.png" />
           <p className="pt-4 text-[15px] leading-[27px]">
             Desde que empezamos a usar Galileo Capital, nuestras operaciones son
@@ -49,7 +49,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="px-8 py-14 rounded-[20px] ">
+        <div className="px-8 py-14 rounded-[20px] hover-gradient">
           <img src="/assets/quotes.png" />
           <p className="pt-4 text-[15px] leading-[27px]">
             Galileo Capital nos ha proporcionado una solución completa para
@@ -59,7 +59,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="px-8 py-14 rounded-[20px] ">
+        <div className="px-8 py-14 rounded-[20px] hover-gradient">
           <img src="/assets/quotes.png" />
           <p className="pt-4 text-[15px] leading-[27px]">
             La tecnología avanzada de Galileo Capital y su enfoque en la
@@ -73,7 +73,7 @@ const About = () => {
       <div
         data-aos="fade-up"
         data-aos-delay="2000"
-        className="bg-cover bg-center my-[8%] md:my-0 flex flex-col md:flex-row items-center gap-[5%] p-4 rounded-[20px]"
+        className="bg-cover bg-center py-[4%] my-[8%] md:my-0 flex flex-col md:flex-row items-center gap-[5%] p-4 rounded-[20px]"
         style={{
           backgroundImage: "url('/assets/bg-cta.png')",
         }}

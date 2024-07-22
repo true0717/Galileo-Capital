@@ -29,8 +29,8 @@ const Hero = () => {
   };
 
   return (
-    <div className="text-white gradient-background px-[4%] py-[5%]">
-      <header className="flex justify-between items-start">
+    <div className="text-white gradient-background py-[5%]">
+      <header className="flex justify-between w-full items-start">
         <div className="md:mx-[5%] ">
           <img
             src="/assets/logo.png"
@@ -38,7 +38,7 @@ const Hero = () => {
             className="h-10 a-auto md:h-14 lg:h-auto"
           />
         </div>
-        <div className="hidden lg:flex gap-[50px] items-center">
+        <div className="hidden lg:flex mx-[2%] gap-[50px] items-center">
           <ul className="text-[17px] cursor-pointer flex gap-[50px] font-[700]">
             {navItems.map((item, index) => (
               <li
@@ -54,16 +54,16 @@ const Hero = () => {
               </li>
             ))}
           </ul>
-          <button className="bg-[#FCF0F8] text-black py-4 px-9 rounded-full text-[17px] font-[500]">
+          <button className="bg-[#FCF0F8] hover:bg-[#28C0F5] duration-300 hover:text-white text-black py-2 md:py-4 px-6 md:px-9 rounded-full text-[15px] md:text-[17px] font-[500]">
             Get Started
           </button>
         </div>
 
-        <div>
+        <div className="lg:hidden">
           <img
             onClick={() => setShow(!show)}
             src="/assets/Icons/menu.svg"
-            className="h-10 w-10 text-white lg:hidden "
+            className="h-10 w-10 text-white "
           />
         </div>
         <div className="absolute lg:hidden">
@@ -89,21 +89,22 @@ const Hero = () => {
         </div>
       </header>
 
-      <section className="flex flex-col lg:flex-row gap-[2%] 2xl:gap-[5%] pt-[5%] items-center justify-center">
+      <section className="flex px-[9%] flex-col h-[700px] lg:flex-row gap-[2%] 2xl:gap-[5%] pt-[5%] items-start justify-center">
         <div className="lg:w-[60%] space-y-8">
           <h2 className="text-[42px] md:text-[72px] font-[600] leading-[60px] lg:leading-[100px]">
             Cryptocurrency <br /> Done Right with
           </h2>
           <img src="/assets/fonts/Galileo capital.svg" className="w-full" />
-          <p className="text-[18px] md:text-[23px] lg:text-[27px] font-[500] leading-[28px] md:leading-[38px]">
+          <p className="text-[18px] md:text-[23px] lg:text-[27px] font-[300] leading-[28px] md:leading-[38px]">
             Safeguard Your Assets and Navigate the volatile world of crypto
-            assets with our secure and compliant platform.
+            assets with our{" "}
+            <span className="font-[500]">secure and compliant</span> platform.
           </p>
-          <button className="bg-[#FCF0F8] text-black py-2 md:py-4 px-6 md:px-9 rounded-full text-[15px] md:text-[17px] font-[500]">
+          <button className="bg-[#FCF0F8] hover:bg-[#28C0F5] duration-300 hover:text-white text-black py-2 md:py-4 px-6 md:px-9 rounded-full text-[15px] md:text-[17px] font-[500]">
             Get Started
           </button>
         </div>
-        <div className="w-[75%] lg:w-[40%]">
+        <div className="h-[85%]">
           <Lottie options={defaultOptions} />
         </div>
       </section>

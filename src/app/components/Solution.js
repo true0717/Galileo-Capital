@@ -19,7 +19,7 @@ const Solution = () => {
               src="/assets/Icons/icon4.png"
               className="h-14 w-auto md:h-auto"
             />
-            <p className="text-[15px] md:text-[20px] lg:text-[27px] font-[500] leading-[23px] md:leading-[38px]">
+            <p className="text-[15px] md:text-[20px] lg:text-[23px]  leading-[23px] md:leading-[38px]">
               Advanced Blockchain Technology
             </p>
           </div>
@@ -28,7 +28,7 @@ const Solution = () => {
               src="/assets/Icons/icon5.png"
               className="h-14 w-auto md:h-auto"
             />
-            <p className="text-[15px] md:text-[20px] lg:text-[27px] font-[500] leading-[23px] md:leading-[38px]">
+            <p className="text-[15px] md:text-[20px] lg:text-[23px]  leading-[23px] md:leading-[38px]">
               Secure Trading Algorithms
             </p>
           </div>
@@ -37,7 +37,7 @@ const Solution = () => {
               src="/assets/Icons/icon6.png"
               className="h-14 w-auto md:h-auto"
             />
-            <p className="text-[15px] md:text-[20px] lg:text-[27px] font-[500] leading-[23px] md:leading-[38px]">
+            <p className="text-[15px] md:text-[20px] lg:text-[23px] leading-[23px] md:leading-[38px]">
               Robust Custody Agreements
             </p>
           </div>

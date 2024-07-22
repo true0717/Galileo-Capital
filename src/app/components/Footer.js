@@ -8,13 +8,13 @@ const Footer = () => {
     AOS.init({ duration: 1000, once: true });
   }, []);
   return (
-    <div className="bg-[#3F3E45] px-[10%] pt-[3%]">
+    <div className="bg-[#0B0A0C] px-[10%] pt-[3%]">
       <div
         data-aos="fade-up"
         data-aos-delay="2000"
         className="flex flex-col md:flex-row justify-between items-center py-[5%]"
       >
-        <div className="flex md:w-[30%] mb-12 md:mb-0 text-start flex-col items-center">
+        <div className="flex md:w-[30%] mb-12 md:mb-0 text-start flex-col items-start">
           <img src="/assets/logo-footer.png" />
           <p className="text-white/70 pt-6 text-[18px]">
             A new way to make the payments easy, reliable and secure.
