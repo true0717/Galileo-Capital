@@ -104,7 +104,7 @@ const Hero = () => {
             Get Started
           </button>
         </div>
-        <div className="w-[60%] mx-auto md:h-[85%]">
+        <div className="w-[60%] md:w-auto mx-auto md:h-[85%]">
           <Lottie options={defaultOptions} />
         </div>
       </section>
