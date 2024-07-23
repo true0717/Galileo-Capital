@@ -9,26 +9,26 @@ const Features = () => {
   }, []);
 
   return (
-    <div id="features" className="bg-[#09002a] px-[10%] py-[5%]">
+    <div id="features" className="bg-[#09002a] px-[10%] py-[50px] md:py-[5%]">
       <div
         data-aos="fade-up"
-        className="flex flex-col md:flex-row justify-between"
+        className="flex flex-wrap items-center justify-center gap-[10px] md:justify-between"
       >
-        <div className="text-[23px] md:text-[30px] lg:text-[40px] font-[600] flex items-center gap-[20px]">
+        <div className="text-[20px] md:text-[30px] lg:text-[40px] font-[600] flex items-center gap-[10px] md:gap-[20px]">
           <p>1100+</p>
-          <p className="text-[15px] lg:text-[20px] font-[400] text-[#1BF8FD]">
+          <p className="text-[12px] lg:text-[20px] font-[400] text-[#1BF8FD]">
             active users
           </p>
         </div>
-        <div className="text-[23px] md:text-[30px] lg:text-[40px] font-[600] flex items-center gap-[20px]">
+        <div className="text-[20px] md:text-[30px] lg:text-[40px] font-[600] flex items-center gap-[10px] md:gap-[20px]">
           <p>100+</p>
-          <p className="text-[15px] lowercase lg:text-[20px] font-[400] text-[#1BF8FD]">
+          <p className="text-[12px] lowercase lg:text-[20px] font-[400] text-[#1BF8FD]">
             TRUSTED BY COMPANY
           </p>
         </div>
-        <div className="text-[23px] md:text-[30px] lg:text-[40px] font-[600] flex items-center gap-[20px]">
+        <div className="text-[20px] md:text-[30px] lg:text-[40px] font-[600] flex items-center gap-[10px] md:gap-[20px]">
           <p>$50M+</p>
-          <p className="text-[15px] lowercase lg:text-[20px] font-[400] text-[#1BF8FD]">
+          <p className="text-[12px] lowercase lg:text-[20px] font-[400] text-[#1BF8FD]">
             in TRANSACTIONs
           </p>
         </div>

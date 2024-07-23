@@ -29,9 +29,9 @@ const Hero = () => {
   };
 
   return (
-    <div className="text-white gradient-background py-[5%]">
+    <div className="relative text-white gradient-background py-[5%]">
       <header className="flex justify-between w-full items-start">
-        <div className="md:mx-[5%] ">
+        <div className="mx-auto md:mx-[5%] ">
           <img
             src="/assets/logo.png"
             alt="Logo"
@@ -59,7 +59,7 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className="lg:hidden">
+        <div className="absolute top-5 right-4 lg:hidden">
           <img
             onClick={() => setShow(!show)}
             src="/assets/Icons/menu.svg"
@@ -91,11 +91,11 @@ const Hero = () => {
 
       <section className="flex px-[9%] flex-col h-[700px] lg:flex-row gap-[2%] 2xl:gap-[5%] pt-[5%] items-start justify-center">
         <div className="lg:w-[60%] space-y-8">
-          <h2 className="text-[42px] md:text-[72px] font-[600] leading-[60px] lg:leading-[100px]">
+          <h2 className="text-[38px] md:text-[72px] font-[600] leading-[60px] lg:leading-[100px]">
             Cryptocurrency <br /> Done Right with
           </h2>
           <img src="/assets/fonts/Galileo capital.svg" className="w-full" />
-          <p className="text-[18px] md:text-[23px] lg:text-[27px] font-[300] leading-[28px] md:leading-[38px]">
+          <p className="text-sm md:text-[23px] lg:text-[27px] font-[300] leading-[28px] md:leading-[38px]">
             Safeguard Your Assets and Navigate the volatile world of crypto
             assets with our{" "}
             <span className="font-[500]">secure and compliant</span> platform.
@@ -104,7 +104,7 @@ const Hero = () => {
             Get Started
           </button>
         </div>
-        <div className="h-[85%]">
+        <div className="w-[60%] mx-auto md:h-[85%]">
           <Lottie options={defaultOptions} />
         </div>
       </section>

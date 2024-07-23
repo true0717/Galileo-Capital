@@ -47,7 +47,7 @@ const Process = () => {
   };
 
   return (
-    <div id="process" className="bg-[#09002a]">
+    <div id="process" className="bg-[#09002a] py-[50px] md:py-0">
       <div>
         <div
           data-aos="fade-up"

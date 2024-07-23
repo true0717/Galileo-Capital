@@ -10,7 +10,7 @@ const Solution = () => {
   return (
     <div
       id="solution"
-      className="flex flex-col lg:flex-row gap-[2%] bg-[#09002a] px-[10%] py-[5%]"
+      className="flex flex-col lg:flex-row gap-[2%] bg-[#09002a] px-[10%] py-[50px] md:py-[5%]"
     >
       <div data-aos="fade-up" className="md:w-[80%] lg:w-[65%]">
         <div className="grid pb-[15%] grid-cols-3 gap-[4%] justify-between">

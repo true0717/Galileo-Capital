@@ -8,8 +8,8 @@ const Security = () => {
     AOS.init({ duration: 1000 });
   }, []);
   return (
-    <div className="grid lg:grid-cols-2 items-start overflow-hidden gap-[3%] bg-[#09002a] px-[10%] pb-[8%] py-[5%]">
-      <div data-aos="fade-up" className="md:w-full ">
+    <div className="grid lg:grid-cols-2 items-start overflow-hidden gap-[3%] bg-[#09002a] px-[10%] pb-[8%] py-[50px] md:py-[5%]">
+      <div data-aos="fade-up" className="hidden md:block md:w-full ">
         <img src="/assets/img2.png" className="w-full h-full" />
       </div>
 
@@ -31,6 +31,10 @@ const Security = () => {
             className="hidden md:block absolute lg:-top-40 -top-[200px] -left-[75%] lg:left-[60%]  "
           />
         </div>
+      </div>
+
+      <div data-aos="fade-up" className="md:hidden md:w-full ">
+        <img src="/assets/img2.png" className="w-full h-full" />
       </div>
     </div>
   );

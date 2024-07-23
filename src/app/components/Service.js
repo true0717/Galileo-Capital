@@ -9,7 +9,7 @@ const Service = () => {
   }, []);
 
   return (
-    <div className="grid lg:grid-cols-2 gap-[5%] pb-[15%] lg:pb-[8%] bg-[#09002a] px-[10%] py-[5%]">
+    <div className="grid lg:grid-cols-2 gap-[5%] pb-[15%] lg:pb-[8%] bg-[#09002a] px-[10%] py-[50px] md:py-[5%]">
       <div data-aos="fade-up" className="">
         {/* <h2 className="text-white text-[45px] leading-[72px]">
           Guiding you through the whole process

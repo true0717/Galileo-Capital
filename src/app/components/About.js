@@ -21,7 +21,7 @@ const About = () => {
   return (
     <div
       id="about-us"
-      className="section pt-[8%] gap-[2%] bg-[#09002a] px-[10%] py-[5%]"
+      className="section pt-[8%] gap-[2%] bg-[#09002a] px-[10%] py-[50px] md:py-[5%]"
     >
       <div
         data-aos="fade-up"
