@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import CTAnim from "../../../public/assets/lottie/CTA-anim.json";
@@ -9,6 +9,13 @@ const About = () => {
   useEffect(() => {
     AOS.init({ duration: 9000 });
   }, []);
+
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!dropdownOpen);
+  };
+
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -30,7 +37,7 @@ const About = () => {
       >
         <img src="/assets/fonts/What people are saying about us.svg" />
         <p className="text-[18px] leading-[32px] text-white/70">
-          Everything you need to liquidate your crypto assets realiably.
+          Everything you need to liquidate your crypto assets reliably.
         </p>
       </div>
 
@@ -85,13 +92,36 @@ const About = () => {
           />
         </div>
         <div>
-          <h3 className="text-[30px] lg:text-[48px] text-center md:text-start  leading-[45px] lg:leading-[67px] font-[600] ">
+          <h3 className="text-[30px] lg:text-[48px] text-center md:text-start leading-[45px] lg:leading-[67px] font-[600]">
             Galileo Capital is regulated in Costa Rica and United States
           </h3>
-          <div className="flex items-center justify-center md:justify-start md:items-start">
-            <button className="mt-6 bg-[#FCF0F8] text-black py-4 px-9 rounded-full text-[17px] font-[500]">
+          <div className="flex items-center justify-center md:justify-start md:items-start relative">
+            <button
+              onClick={toggleDropdown}
+              className="mt-6 bg-[#FCF0F8] text-black py-4 px-9 rounded-full text-[17px] font-[500]"
+            >
               Get Started
             </button>
+            {dropdownOpen && (
+              <div className="absolute top-full mt-2 bg-white rounded-lg shadow-lg z-10">
+                <a
+                  href="https://www.jotform.com/233520788042859"
+                  className="block px-4 py-2 text-black hover:bg-[#28C0F5] hover:text-white"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  For USA Individuals
+                </a>
+                <a
+                  href="https://www.jotform.com/240868739736171"
+                  className="block px-4 py-2 text-black hover:bg-[#28C0F5] hover:text-white"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  For USA Business
+                </a>
+              </div>
+            )}
           </div>
         </div>
       </div>

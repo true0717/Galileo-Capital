@@ -7,6 +7,11 @@ const Footer = () => {
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });
   }, []);
+
+  const handleSmoothScroll = (sectionId) => {
+    document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="bg-[#0B0A0C] px-[10%] pt-[3%]">
       <div
@@ -24,11 +29,36 @@ const Footer = () => {
         <div className="flex gap-[90px]">
           <ul className="text-[16px] text-white/70 leading-[24px] space-y-5">
             <li className="text-[18px] font-[500] text-white pb-3">Galileo</li>
-            <li className="text-white/70 cursor-pointer">Home</li>
-            <li className="text-white/70 cursor-pointer">Features</li>
-            <li className="text-white/70 cursor-pointer">Solution</li>
-            <li className="text-white/70 cursor-pointer">Process</li>
-            <li className="text-white/70 cursor-pointer">About Us</li>
+            <li
+              className="text-white/70 cursor-pointer"
+              onClick={() => handleSmoothScroll("home")}
+            >
+              Home
+            </li>
+            <li
+              className="text-white/70 cursor-pointer"
+              onClick={() => handleSmoothScroll("features")}
+            >
+              Features
+            </li>
+            <li
+              className="text-white/70 cursor-pointer"
+              onClick={() => handleSmoothScroll("solution")}
+            >
+              Solution
+            </li>
+            <li
+              className="text-white/70 cursor-pointer"
+              onClick={() => handleSmoothScroll("process")}
+            >
+              Process
+            </li>
+            <li
+              className="text-white/70 cursor-pointer"
+              onClick={() => handleSmoothScroll("about-us")}
+            >
+              About Us
+            </li>
           </ul>
           <ul className="text-[16px] text-white/70 leading-[24px] space-y-5">
             <li className="text-[18px] font-[500] text-white pb-3">
@@ -45,7 +75,6 @@ const Footer = () => {
         className="border-t border-white/50 py-[3%] flex flex-col lg:flex-row justify-between items-center"
       >
         <div className="flex items-center gap-4">
-          {/* <p className="text-[18px] leading-[27px]">Copyright</p> */}
           <p className="text-[18px] leading-[27px] text-center md:text-start">
             2021 Galileo Capital. All Rights Reserved.
           </p>
