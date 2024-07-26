@@ -14,11 +14,7 @@ const Footer = () => {
 
   return (
     <div className="bg-[#0B0A0C] px-[10%] pt-[3%]">
-      <div
-        data-aos="fade-up"
-        data-aos-delay="2000"
-        className="flex flex-col md:flex-row justify-between items-center py-[5%]"
-      >
+      <div className="flex flex-col md:flex-row justify-between items-center py-[5%]">
         <div className="flex md:w-[30%] mb-12 md:mb-0 text-start flex-col items-start">
           <img src="/assets/logo-footer.png" />
           <p className="text-white/70 pt-6 text-[18px]">
@@ -69,11 +65,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div
-        data-aos="fade-up"
-        data-aos-delay="2000"
-        className="border-t border-white/50 py-[3%] flex flex-col lg:flex-row justify-between items-center"
-      >
+      <div className="border-t border-white/50 py-[3%] flex flex-col lg:flex-row justify-between items-center">
         <div className="flex items-center gap-4">
           <p className="text-[18px] leading-[27px] text-center md:text-start">
             2021 Galileo Capital. All Rights Reserved.
